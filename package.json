@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "kioskboard": "^2.3.0",
+    "vercel": "^30.0.0"
   }
 }
