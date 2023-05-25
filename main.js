@@ -1,6 +1,6 @@
 import './style.css'
 import KioskBoard from 'kioskboard'
-import kiosKeys from './kioskboard-keys-pt-br.json'
+import kiosKeys from './kioskboard-keys-pt-br'
 
 KioskBoard.init({
   keysArrayOfObjects: kiosKeys,
