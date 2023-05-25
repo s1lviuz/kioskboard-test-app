@@ -1,9 +1,10 @@
 import './style.css'
 import KioskBoard from 'kioskboard'
+import kiosKeys from './kioskboard-keys-pt-br.json'
 
 KioskBoard.init({
-  keysArrayOfObjects: null,
-  keysJsonUrl: '/kioskboard-keys-pt-br.json',
+  keysArrayOfObjects: kiosKeys,
+  keysJsonUrl: null,
   language: 'pt-br',
   theme: 'light',
   cssAnimations: true,
